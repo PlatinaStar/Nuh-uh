@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+textarea, input {
+  resize: none;
+  font-size: 3vw;
+  background-color: #9C59D1;
+  color: white;
+}
+
+
+body {
+  font-size: 3vw;
+  background-color: #2C2C2C;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+
+button {
+  font-size: 2vw;
+  background-color: #FCF434;
+  color: black;
+  padding: .2em;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #c2bd2e;
+}
+
+table, tr, td, th {
+  border: 1px solid white;
+  border-collapse: collapse;
+}

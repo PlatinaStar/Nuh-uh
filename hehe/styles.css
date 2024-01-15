@@ -1,0 +1,190 @@
+body{
+    background-color: #000000;
+}
+h1 {
+    font-family: 'Pixelify Sans', cursive;
+    color:#ffffff;
+    text-align:center;
+  
+}
+ul {
+    margin-block-start: 23px;
+    margin-block-end: 23px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+
+nav ul li {
+width: 100%;
+display: inline;
+list-style: none; 
+  }
+
+ .navs {
+    position: relative;
+    font-family: 'Pixelify Sans',cursive;
+    text-align:center;
+    color: #ffffff;
+   background-color:transparent;
+    padding: 5px;
+    text-decoration: none;
+   background-image: 
+     linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+   animation: rainbow-animation 35s linear infinite;
+   }
+
+   @keyframes rainbow-animation {
+     to {
+         background-position: 450vh;
+     }
+   }
+ 
+
+ .active {
+    position: relative;
+    font-family: 'Pixelify Sans', cursive;
+    background-color:transparent;
+    text-align:center;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    background-image: 
+      linear-gradient(to right, #ff3333,#f8c463,#f9f96c,#68f868,#7070ff,#b36be6,#fdc4fd, #ff3333); 
+    animation: rainbow-animation 35s linear infinite;
+    }
+
+    @keyframes rainbow-animation {
+      to {
+          background-position: 450vh;
+      }
+    }
+
+.navs:hover {
+    position: relative;
+    font-family: 'Pixelify Sans', cursive;
+    background-color:transparent;
+    text-align:center;
+    color: #ffffff;
+    padding:5px;
+    text-decoration: none;
+   background-image: 
+     linear-gradient(to right, #6a0101,#b37400,#b7b701,#004d00,#000075,#180029,#6b2e6b, #6a0101); 
+   animation: rainbow-animation 35s linear infinite;
+   }
+
+   @keyframes rainbow-animation {
+     to {
+         background-position: 450vh;
+     }
+   }
+p{
+margin-top: 20px;
+font-family: 'Pixelify Sans', cursive;
+color:white;
+font-size: 150%;
+text-align: center;
+}
+
+li{
+    display:block;
+    list-style: none;
+    font-family: 'Pixelify Sans', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 125%;
+}
+ .chenk{
+margin-top: 20px;
+font-family: 'Pixelify Sans', cursive;
+color:white;
+font-size: 200%;
+text-align: center;
+}
+ .parapapa{
+margin-top: 20px;
+font-family: 'Pixelify Sans', cursive;
+color:white;
+font-size: 150%;
+text-align: left;
+ }
+.onion{
+  height: 25%;
+  width: 25%;
+  padding: 10px;
+  padding-left: 25px;
+}
+footer{
+  position: relative;
+  font-family: 'Pixelify Sans', cursive;
+  background-color:transparent;
+  text-align:center;
+  color: #ffffff;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  background-image: 
+     linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
+   animation: rainbow-animation 35s linear infinite;
+   }
+
+   @keyframes rainbow-animation {
+     to {
+         background-position: 450vh;
+     }
+   }
+footer:hover{
+  position: relative;
+  font-family: 'Pixelify Sans', cursive;
+  background-color:transparent;
+  text-align:center;
+  color: #ffffff;
+  padding: 5px;
+  text-decoration: none;
+  background-image: 
+ linear-gradient(to right, #6a0101,#b37400,#b7b701,#004d00,#000075,#180029,#6b2e6b, #6a0101); 
+   animation: rainbow-animation 35s linear infinite;
+   }
+
+   @keyframes rainbow-animation {
+     to {
+         background-position: 450vh;
+     }
+   }
+
+.Skeli{
+  height: 15%;
+  width: 15%;
+  padding: 10px;
+  padding-left: 25px;
+}
+.beans{
+  height: 10%;
+  width: 10%;
+  padding: 10px;
+  padding-left: 25px;
+}
+ .money{
+margin-top: 20px;
+font-family: 'Pixelify Sans', cursive;
+color:#e7b3ff;
+font-size: 125%;
+text-align: left;
+ }
+a{
+  text-decoration: none;
+}
+.pracak{
+  height: 10%;
+  width: 10%;
+  transition: all .69s;
+  padding: 10px;
+  padding-left: 25px;
+  cursor: pointer;
+}
+.pracak:hover{
+  transform: scale(1.35);
+  padding: 10px;
+  padding-left: 25px;
+}

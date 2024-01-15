@@ -1,0 +1,56 @@
+@font-face {
+font-family: "crimas";
+src: url("Things We Said.ttf");
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  font-size: 3em;
+  font-family: "crimas";
+  background-color: black;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fclipart-library.com%2Fimage_gallery%2Fn1236383.png&f=1&nofb=1&ipt=592e873230430c92dc473e7e8bd94f266155b1c10172cf78106896bd81569321&ipo=images');
+  background-size: 5em;
+  background-repeat: repeat;
+  color: white;
+}
+
+h1 {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+
+p{
+  grid-column: 2;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.pop{
+  size: 100%;
+  position: absolute;
+  top: -10%;
+  animation-name: snow;
+  animation-duration: 1800s;
+  animation-timing-function: linear;
+  z-index: 1000;
+}
+
+@keyframes snow {
+  from {top: 98%;}
+  to {top:-10%}
+}

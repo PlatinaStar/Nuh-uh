@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+  --first-color: #2C2C2C;
+  --second-color: #9C59D1;
+  --third-color: #FCF434;
+  --fourth-color: #FFF;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 1.9em;
+  height: 100vh;
+  background-color: #2C2C2C;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  display: grid;
+  place-items: center;
+}
+
+button {
+  width: 5.5em;
+  height: 4em;
+  font-size: 0.5em;
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  border: solid var(--first-color) 2px;
+  transition: background-color .25s, border .5s;
+}
+
+.nuhuh {
+  border: solid var(--second-color);
+}
+
+button:hover {
+  background-color: var(--third-color);
+  color: var(--first-color);
+  border: solid var(--third-color);
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: var(--second-color);
+  border: solid var(--second-color);
+}
+
+#extra {
+  color: gold;
+}
+
+#evaluation {
+  background-color: var(--fourth-color);
+  color: var(--first-color);
+}
+
+#evaluation p {
+  margin: 1em;
+}
+
+.equalsandc {
+  font-weight: bolder;
+  background-color: #be87e8;
+}
+
+#bacc {
+  text-decoration: none;
+  padding: .45em;
+  background-color: #403f3f;
+  color: var(--fourth-color);
+}

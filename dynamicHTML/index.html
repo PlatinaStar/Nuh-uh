@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dynamic Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="demo">*snore* mimimimi. *snore* mimimimi. *snore* mimimimi.</h1>
+  <button onclick="gibName()" id="button">Say smth</button>
+
+  <script>
+    function gibName() {
+    let text;
+    let person = prompt("Gib name:", "");
+    if (person == null || person == "") {
+      text = "*snore* mimimimi. *snore* mimimimi. *snore* mimimimi.";
+    } else {
+      text = `YOU, <span style="color: red;">${person}</span>, DARE AWAKEN ME FROM MY SLUMBER?!`;
+      document.getElementById("button").remove();
+    }
+    document.getElementById("demo").innerHTML = text;
+  }
+</script>
+</body>
+
+</html>

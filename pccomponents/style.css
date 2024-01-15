@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Pixelify+Sans&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Pixelify Sans', cursive;
+}
+
+header {
+  font-family: 'Nabla', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+header:hover {
+  cursor: default;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h1:hover {
+  cursor: default;
+}
+
+nav {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 25%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav:hover {
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  padding: 0 1rem;
+}
+
+a:hover {
+  background-color: #292929;
+  cursor: pointer;
+}
+
+img {
+  width: 40vw;
+  transition: all .25s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(5, 197, 93, .25);
+  position: fixed;
+  bottom: 1em;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+footer:hover {
+  opacity: 0%;
+  cursor: none;
+}
+
+.titl {
+  font-size: 30px;
+  margin: auto;
+}
+
+.name {
+  font-size: 20px;
+  margin: auto;
+}
+
+.pepl {
+  width: 10rem;
+}
+
+.pepl:hover {
+  width: 11rem;
+}
+
+.abt {
+  font-size: 25px;
+}
+
+.pdt_name {
+  font-size: 30px;
+  margin: auto;
+}
+
+.price {
+  font-size: 25px;
+  color: green;
+  margin: auto;
+}
+
+.actualContact {
+  font-size: 15px;
+}
+
+.smol {
+  font-size: .6rem;
+}
+
+.mid {
+  text-align: center;
+}
+
+.time {
+  background-color: orange;
+  color: black;
+  font-size: 1vw;
+}
+
+#amount {
+  background-color: red;
+  border-radius: 100%;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: .75vw;
+  font-weight: bolder;
+  text-align: center;
+  padding: .25vw 0 .25vw 0;
+  position: relative;
+  left: 1.5vw;
+  bottom: .25vw;
+  z-index: 100;
+}
+
+#no {
+  width: 4vw;
+}
+
+#shopper {
+  position: fixed;
+  top: 3vb;
+  right: 2vb;
+}
+
+#cartthing {
+  background-color: transparent;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+  text-align: center;
+  padding: .2vw .5vw;
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+.butn {
+  background-color: tomato;
+}
+
+#RemAll {
+  background-color: red;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+#total {
+  background-color: darkgreen;
+  width: auto;
+  font-size: 2vw;
+}
+
+#a {
+  display: flex;
+  justify-content: center;
+}
+
+#as {
+  display: flex;
+  justify-content: center;
+}
+
+#asd {
+  display: flex;
+  justify-content: center;
+}
+
+#asdf {
+  display: flex;
+  justify-content: center;
+}
+
+#pay {
+  background-color: rgb(88, 250, 228);
+  font-weight: bolder;
+  font-size: 3vw;
+  cursor: pointer;
+}
+
+#cardo {
+  width: 3vw;
+}
+
+#cardo:hover {
+  transform: scale(1);
+}

@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  font-size: 30px;
+  background-color: #48ce72;
+  font-family: 'Comfortaa', cursive;
+}

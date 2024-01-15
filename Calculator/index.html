@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calculator and stuff</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p>Here, have a calculator</p>
+  <table>
+    <tr>
+      <td>First numbah</td>
+      <td>Second numbah</td>
+      <td>answer</td>
+    </tr>
+    <tr>
+      <td><input id="first" required rows="1" placeholder="number" type="number" oninput="numericFilter(this);"></input></td>
+      <td><input id="second" required rows="1" placeholder="number/power" type="number" oninput="Inputha(this.value); numericFilter(this);"></input>
+      </td>
+      <td><span id="answer"></span></td>
+    </tr>
+    <tr>
+      <th>
+        <button id="+" onclick="Calculate(this.id)">&nbsp<sup> </sup>+<sup> </sup>&nbsp</button>
+        <button id="-" onclick="Calculate(this.id)">&nbsp<sup> </sup>-<sup> </sup>&nbsp</button>
+        <button id="*" onclick="Calculate(this.id)">&nbsp<sup> </sup>*<sup> </sup>&nbsp</button>
+        <button id="/" onclick="Calculate(this.id)">&nbsp<sup> </sup>/<sup> </sup>&nbsp</button>
+        <button id="%" onclick="Calculate(this.id)">&nbsp<sup> </sup>%<sup> </sup>&nbsp</button>
+        <button id="^" onclick="Calculate(this.id)">&nbsp<sup> </sup>x<sup id="puf">1</sup>&nbsp</button>
+        <button id="√" onclick="Calculate(this.id)">&nbsp<sup> </sup>√<sup> </sup>&nbsp</button>
+      </th>
+    </tr>
+  </table>
+  <br><br><br><br><br>
+  <button onclick="RWG()">Have a random word(sentenence)</button>
+  <p id="sentenence"></p>
+  <script src="script.js"></script>
+  <br><br><br><br>
+  <table>
+    <tr>
+      <th>Gib r</th>
+      <th>Output</th>
+    </tr>
+    <tr>
+      <td><input type="text" id="txt"></td>
+      <td><span id="ansr"></span></td>
+    </tr>
+    <tr>
+      <td><button onclick="haiya()">Gib surfice</button></td>
+      <td>:3</td>
+    </tr>
+  </table>
+  <br><br>
+  <table>
+    <tr>
+      <th>Gib anotha r</th>
+      <th>Gib s</th>
+      <th>Output</th>
+    </tr>
+    <tr>
+      <td><input type="text" id="txtt"></td>
+      <td><input type="text" id="txttt"></td>
+      <td><span id="ansrr"></span></td>
+    </tr>
+    <tr>
+      <td><button onclick="haiyaa()">gib </button></td>
+      <td>:3</td>
+      <td>:P</td>
+    </tr>
+  </table>
+  <button onclick="sqerut()">haha</button>
+  <p id="hahaha"></p>
+  <br><br><br><br>
+  <input type="number" id="avrg">
+  <button onclick="Average(avrg.value)">add</button>
+  <button onclick="gib()">Gib average</button>
+  <p id="yourAverage"></p>
+  <br><br><br><br><br>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
