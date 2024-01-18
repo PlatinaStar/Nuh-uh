@@ -1,5 +1,42 @@
 html {
-    height: 100%;
     width: 100%;
+    height: 100%;
+}
+
+body {
     font-size: 2rem;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow: hidden;
+}
+
+#grid {
+    grid-column: 2;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+}
+
+.button2 {
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 75%;
+    background-color: rgb(50, 8, 88);
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+h1 {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
