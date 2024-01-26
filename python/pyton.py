@@ -16,11 +16,11 @@ def print_2d_matrix(array):
   for i in range(len(array)):
     print(array[i])
     
-print("\nDefined array:")
+print("\nDefined matrix:")
 
 print_2d_matrix(x)
 
-print("\nCreated array:")
+print("\nCreated matrix:")
 
 a = create_2d_matrix(3, 6, 3)
 print_2d_matrix(a)
