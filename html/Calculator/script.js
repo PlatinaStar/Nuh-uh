@@ -66,7 +66,7 @@ function Calculate(sign) {
   document.getElementById("answer").innerHTML = ans;
 }
 
-let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'the day your first born will be born'];
 let pronouns = ['you', 'I', 'he', 'she', 'they'];
 let actions = ['kill', 'hide', 'fart on', 'dance on', 'microwave', 'snap', 'scare', 'put', 'steam', 'bake', 'hug', 'smell'];
 let recievers = ['a dog', 'your best friend', 'a cake', 'a pie', 'your grandma', 'Rex Lapis', 'a keyboard'];

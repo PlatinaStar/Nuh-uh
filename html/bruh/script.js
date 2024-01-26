@@ -1,6 +1,6 @@
 function Time() {
   const d = new Date();
-  document.getElementById("time").innerHTML = d;
+  document.getElementById("time").innerHTML = "<br>" + d;
 }
 
 function Name() {
@@ -38,6 +38,5 @@ function secret() {
   else {
     document.getElementById("img").innerHTML = `And it's gone`;
     document.getElementById("secrete").remove();
-    document.
   }
 }

@@ -8,9 +8,8 @@
 }
 
 body {
-    font-size: 2rem;
+    font-size: 1.4em;
     display: grid;
-    overflow: hidden;
     grid-template-columns: auto auto auto;
     font-family: 'Rubik Burned', system-ui;
     background-color: var(--purpul);
@@ -19,6 +18,7 @@ body {
 
 #gridder {
     grid-column: 2;
+    grid-row: 1;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -29,16 +29,29 @@ body {
 
 .gridderitem {
     text-decoration: none;
-    color: white;
     padding: 1rem;
-    line-height: 5rem;
-    transition: all 250ms;
+    line-height: 2.5rem;
+    transition: all 250ms ease-out;
     justify-self: center;
 }
 
-.gridderitem:hover {
-    padding: 1.2rem;
-    font-size: 2.2rem;
+#pgridder {
+    grid-column: 2;
+    grid-row: 2;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    display: grid;
+}
+
+.pgridderitem {
+    text-decoration: none;
+    padding: 1rem;
+    line-height: 2.5rem;
+    transition: all 250ms ease-out;
+    justify-self: center;
 }
 
 a {
@@ -48,4 +61,38 @@ a {
     border: var(--pinku) solid .2rem;
     border-radius: .75rem;
     background-color: var(--lighter-purpul);
+}
+
+@media (orientation: landscape) {
+    body {
+        font-size: 2em;
+    }
+
+    #gridder {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .gridderitem {
+        line-height: 5rem;
+    }
+    
+    .gridderitem:hover {
+        transform: scale(1.2);
+    }
+
+    #pgridder {
+        grid-column: 3;
+        grid-row: 1;
+        position: relative;
+        top: -12.25em;
+    }
+    
+    .pgridderitem {
+        line-height: 5rem;
+    }
+
+    .pgridderitem:hover {
+        transform: scale(1.2);
+    }
 }
