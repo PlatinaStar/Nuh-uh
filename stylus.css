@@ -10,7 +10,7 @@
 body {
     font-size: 1.4em;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
     font-family: 'Rubik Burned', system-ui;
     background-color: var(--purpul);
     color: var(--piss);
@@ -79,12 +79,12 @@ a {
     #gridder {
         grid-column: 1;
         grid-row: 1;
+        grid-auto-flow: row;
         grid-template-columns: 5rem auto 5rem auto 5rem;
     }
     
     .gridderitem {
         line-height: 5rem;
-        grid-column: 2;
     }
     
     .gridderitem:hover {
@@ -92,8 +92,8 @@ a {
     }
     
     .pgridderitem {
-        grid-column: 4;
         line-height: 5rem;
+        grid-row: 0;
     }
 
     .pgridderitem:hover {
