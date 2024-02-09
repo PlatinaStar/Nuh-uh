@@ -63,6 +63,14 @@ a {
 }
 
 @media (orientation: landscape) {
+    #haiya {
+        grid-column: 2;
+    }
+
+    #haiya2 {
+        grid-column: 4;
+    }
+    
     body {
         font-size: 2em;
     }
