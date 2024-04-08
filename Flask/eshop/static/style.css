@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+body{
+    background-color: #0B032D;
+    color: #BEB8EB;
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+}
+
+.Navigation {
+    background-color: green;
+}
