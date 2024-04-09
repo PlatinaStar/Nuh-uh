@@ -8,5 +8,16 @@ body{
 }
 
 .Navigation {
-    background-color: green;
+    background-color: #251a50;
+    color: #BEB8EB;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: .2em;
+    padding: .2em;
+}
+
+@media (orientation: landscape){
+    .Navigation {
+        padding: .5em;
+    }
 }
