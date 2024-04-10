@@ -1,19 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
+:root {
+    --celadon:#83d5af;
+    --air-force-blue:#7190ad;
+    --bright-ultra-violet:#53568d;
+    --ultra-violet:#474573;
+  }
+
 body{
-    background-color: #0B032D;
-    color: #BEB8EB;
+    background-color: var(--ultra-violet);
+    color: var(--celadon);
     font-family: "Kode Mono", monospace;
     text-align: center;
 }
 
 .Navigation {
-    background-color: #251a50;
-    color: #BEB8EB;
+    background-color: var(--bright-ultra-violet);
+    color: var(--celadon);
     text-decoration: none;
     font-weight: 800;
     border-radius: .2em;
     padding: .2em;
+}
+
+#favProducts {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+    left: 0px;
+    display: grid;
+}
+  
+.navholder {
+    justify-self: center;
+    width: 100%;
+    max-width: 1280px;
+}
+  
+.topnav img {
+    height: 2em;
+    width: auto;
+    float: left;
+    padding: 1em;
+}
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: var(--celadon);
+    text-align: center;
+    padding: 1em 1.2em;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+  
+.topnav a:hover {
+    background-color: var(--air-force-blue);
+    color: var(--celadon);
+}
+  
+.topnav .icon {
+    display: none;
 }
 
 @media (orientation: landscape){
