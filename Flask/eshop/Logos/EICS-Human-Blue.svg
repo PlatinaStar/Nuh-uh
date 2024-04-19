@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="84.618179mm"
+   height="103.01129mm"
+   viewBox="0 0 84.61818 103.0113"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="EICS-Human-text.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.91468798"
+     inkscape:cx="378.8177"
+     inkscape:cy="478.85182"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="458.66397"
+       y="167.64034"
+       width="106.3097"
+       height="227.1871"
+       id="rect331" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-71.351717,-63.687585)">
+    <path
+       id="path111"
+       style="fill:#7190ad;fill-opacity:1;stroke-width:0.264583"
+       d="m 99.624927,63.687585 c -16.167673,0 -24.131245,13.658521 -23.923088,26.381853 0.175275,10.713452 3.040895,20.707502 9.702767,26.195812 a 27.5,60.145161 0 0 0 -14.052889,50.43362 h 54.953753 a 27.5,60.145161 0 0 0 -4.53719,-31.08286 c 3.61822,0.70611 7.93614,0.95375 13.15372,0.5085 23.56142,-2.01065 22.96156,-9.10769 18.85466,-18.29088 -1.04944,-2.34659 -2.00394,-3.8883 -2.90422,-4.83123 -2.15342,-3.08714 -5.39514,-6.38814 -9.71,-9.18083 -6.44104,-4.168806 -13.68406,-8.790066 -18.79368,-10.714075 0.0307,-0.859342 0.0387,-1.727826 0.0217,-2.604492 -0.29309,-15.15864 -6.59786,-26.81542 -22.765533,-26.815418 z m 20.017383,42.627885 c 3.28959,2.89184 7.64893,5.83609 11.31197,9.7839 0.9992,1.07688 1.92236,2.14403 2.79415,3.17707 -5.58882,-0.28133 -13.73622,-1.34069 -20.3507,-1.52704 a 27.5,60.145161 0 0 0 -1.15755,-1.49965 c 3.23937,-2.48353 5.70878,-5.90021 7.40213,-9.93428 z"
+       inkscape:export-filename="EICS-Human-Text-Blue.svg"
+       inkscape:export-xdpi="96.036186"
+       inkscape:export-ydpi="96.036186" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-34.362424,16.772135)"
+       id="text329"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:192px;font-family:'Belwe Bd AT';-inkscape-font-specification:'Belwe Bd AT';white-space:pre;shape-inside:url(#rect331);display:inline;fill:#474570;fill-opacity:1"><tspan
+         x="458.66406"
+         y="346.22639"
+         id="tspan2097">?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.6877px;font-family:'Belwe Bd AT';-inkscape-font-specification:'Belwe Bd AT';fill:#83d5af;fill-opacity:1;stroke-width:0.20508"
+       x="75.981903"
+       y="154.5267"
+       id="text810"><tspan
+         sodipodi:role="line"
+         id="tspan808"
+         style="font-size:19.6877px;fill:#83d5af;fill-opacity:1;stroke-width:0.20508"
+         x="75.981903"
+         y="154.5267">EICS</tspan></text>
+  </g>
+</svg>
